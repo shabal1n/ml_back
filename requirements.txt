@@ -25,7 +25,7 @@ libclang==14.0.6
 Markdown==3.4.1
 MarkupSafe==2.1.1
 matplotlib==3.6.2
-mediapipe-silicon==0.8.11
+mediapipe==0.8.11
 numpy==1.23.5
 oauthlib==3.2.2
 opencv-contrib-python==4.6.0.66
@@ -47,7 +47,7 @@ tensorboard==2.11.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow-estimator==2.11.0
-tensorflow-macos==2.11.0
+tensorflow==2.11.0
 tensorflow-metal==0.7.0
 termcolor==2.1.1
 typing_extensions==4.4.0
