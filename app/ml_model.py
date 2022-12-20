@@ -3,9 +3,6 @@ import cv2
 import numpy as np
 from tensorflow.keras.utils import img_to_array
 from cvzone.HandTrackingModule import HandDetector
-import mediapipe
-import imutils
-import os
 
 alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
             'W', 'X', 'Y']
