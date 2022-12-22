@@ -8,7 +8,7 @@
 		<div style="width: 500px; margin: auto;">
 			<fieldset name="Video File Upload and Display">
 				{% if msg %} {% autoescape off %} {{ msg }} {% endautoescape %} {% endif %}
-				<form method="post" action="/" enctype="multipart/form-data">
+				<form method="post" action="/upload" enctype="multipart/form-data">
 					{% csrf_token %}
 					<dl>
 						<p>
